@@ -1,0 +1,17 @@
+bom/
+gerber/
+*-backups/
+production/
+
+!*.json
+
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_pro
+
+*_fab.*
+
+panel.*
+
+
+
