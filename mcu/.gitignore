@@ -1,34 +1,14 @@
+*
+!*/
 
-.vscode
 .pyenv
-
-target
+.vscode
 build
 target
-Core
-Drivers
-FATFS
-Middlewares
-USB_Device
-HTML
-vu_*.v
-
-!*.c
-!*.h
-!*.cpp
-!*.hpp
 
 !Makefile
-!*.ioc
+!src/*.c
+!inc/*.h
+!.clang-format
 
-!*.a
-
-!*.s
-!*.ld
-
-!*.v
-
-!*.rs
-!*.toml
-
-
+!README.md
