@@ -12,6 +12,7 @@
 #include "ma_main.h"
 #include "gpio.h"
 #include "main.h"
+#include "md_led.h"
 
 extern void SystemClock_Config(void);
 extern void PeriphCommonClock_Config(void);
@@ -22,6 +23,8 @@ int main(void)
     SystemClock_Config();
     PeriphCommonClock_Config();
     MX_GPIO_Init();
+    // 初始化外设
+    drv_led_init();
     while (1) {
         // nop
     }
